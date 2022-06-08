@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea clase 7</title>
+</head>
+<body>
+    <div id="source">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cumque, unde eum, quasi nostrum ad ipsum neque ea dignissimos dolores perspiciatis repudiandae. Facere repudiandae laudantium rem. Aperiam esse optio perferendis?</p>
+    </div>
+    <div id="destination">
+        <p><a href="https://redgol.cl/"> redgol</a></p>
+    </div>
+    <script>
+        const sourc = document.querySelector ("#sourse")
+        const destinat = document.querySelector ("#destination")
+        
+        const aux = sourc.innerHTML; 
+
+        sourc.innerHTML= destinat.innerHTML;
+        destinat.innerHTML=aux;
+
+    </script>
+    
+</body>
+</html>
+
